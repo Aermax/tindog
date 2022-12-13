@@ -71,9 +71,11 @@ p {
 
 .title-image {
 
-    width: 60%;
+    height: 80%;
+    /* width: 17rem; */
     transform: rotate(25deg);
-    /* position: absolute; */
+    position: absolute;
+    /* right: 25%; */
     
  
    
@@ -85,6 +87,7 @@ p {
     background-color: #fff;
     padding: 7% 15%;
     position: relative;
+    
     
     
 
@@ -158,7 +161,7 @@ p {
 }
 
 #footer {
-    padding: 7% 15%;
+    padding:c;
     text-align: center;
 }
 
@@ -171,10 +174,16 @@ p {
 @media (max-width: 1028px) {
     #title {
         text-align: center;
+
     }
 
     .title-image {
-        position: static;
+        position: relative;
         transform: rotate(0);
+        padding: 7% 15%;
+        right: 20px;
+        
+        
     }
+
 }
